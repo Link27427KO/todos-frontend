@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #566885;
+}
+
+body {
+  background-color: #1e88e5;
+}
+
+#root {
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrap {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appTodo {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .btnEdit {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  .formTasks{
+
+    .inputTasks {
+      float: left;
+
+      input {
+        border: #566885 solid 1px;
+        border-radius: 3px;
+        background: transparent;
+        width: 100%;
+        padding: 3px;
+        margin: 5px;
+      }
+    }
+
+    .addTodo {
+      float: right;
+      background-color: blueviolet;
+      border-radius: 5px;
+      margin-top: 15px;
+      font-size: 20px;
+
+      .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+        color: white;
+      }
+    }
+  }
+
+  .todosList {
+    display: flex;
+
+    div.todo {
+      width: 300px;
+      margin: 5px;
+      border-radius: 5px;
+      color: black!important;
+    }
+
+    .delTodo {
+      width: 35px;
+      height: 35px;
+      margin-left: 50px;
+      background-color: coral;
+      border-radius: 5px;
+      color: white;
+      fill: white;
+      cursor: pointer;
+    }
+  }
+
+  .footerTasks {
+    margin-top: 20px;
+
+    .colTasks {
+      width: 400px;
+    }
+
+    .clearAll {
+      float: right;
+      background-color: blueviolet;
+      color: white;
+      border-radius: 5px;
+    }
+  }
+}
+
