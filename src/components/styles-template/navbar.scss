@@ -9,11 +9,18 @@
     margin-left: 10px;
     font-size: 24px;
     font-weight: 700;
+    color: coral;
   }
 
   &__login {
     margin-left: auto;
     margin-right: 20px;
+  }
+
+  Button {
+    background-color: coral;
+    border-radius: 5px;
+    color: #59503f;
   }
 }
 
